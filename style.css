@@ -1,0 +1,184 @@
+body{
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu2_3p3rZivAvsBYqEi4aPOHXNFUn9nVIIu6hlA3Ovs1fMMyGBGY2Z8PdoRF9enK_NF-jpAExGZTR0p0hlwtMVB4k0oLtX8dU4vjBd9ziMbhLT8Rqf1mYgi-f37L36WGtJe2wSA2mfdjkJ/s1600-rw/monster-high-cute-images-056.jpg);
+    background-size: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background: linear-gradient(to bottom, #954b9e 0%,#66255c 50%,#63005c 51%,#8f2aaa 100%);
+    
+    overflow-x: hidden;
+}
+.brasao{
+    width: 16vw;
+    margin: auto 50% auto 40%;
+}
+.menu{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 1%;
+}
+.menu > div{
+    cursor: pointer;
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    padding: 2% 2% 1% 2%;
+    color: white;    
+    font-weight: bold;
+}
+
+.content{
+    height: 625px;
+    width: 1035px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 5px 0px rgba(rgb(0, 0, 0, 0.6));
+}
+
+.content .slide img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.navigation{
+    position: absolute;
+    top: 900px;
+    bottom: 160px;
+    left: 650px;
+    display: flex;
+    
+}
+.bar{
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: .5s ease;
+}
+.bar:hover{
+    background-color: white;
+}
+.input{
+    display: none;
+}
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+.slide{
+    width: 20%;
+    transition: .6s;
+
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}
+#slide4:checked ~ .s1{
+    margin-left: -60%;
+}
+#slide5:checked ~ .s1{
+    margin-left: -80%;
+}
+
+section{
+    width: 100%;
+    height: 70vh;
+    display: flex-box;
+    align-items: center;
+    flex-direction: row;
+    padding: 1% 5% 5% 5%;
+    margin-top: 720px;
+    background-color: white;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.noticias{
+    position: absolute;
+    padding-left: 2%;
+    margin: -1% auto auto -5%;
+    background: linear-gradient(to bottom, #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%);;
+    position: absolute;
+    width: 100%;
+    height: 16vh;
+    text-align: left;
+}
+.noticias > h1{
+    font-size: 3rem;
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.matri{
+    
+    border-radius: 10px;
+    text-align: center;
+    width: 20vw;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+
+}
+.matri > h3{
+    font-size: 2rem;
+    border-radius: 10px 10px 0 0;
+    background-color: red;
+    color: white;
+}
+.matri > p{
+    font-size: 1.5rem;
+}
+.blog{
+    position: absolute;
+    justify-content: space-between;
+    margin: 10% 30% auto 25%;
+    border-radius: 10px;
+    text-align: center;
+    width: 20vw;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+.blog > h3{
+    margin-left: -0.7%;
+    width: 20.3vw;
+    margin-top: -5%;
+    position: absolute;
+    font-size: 2rem;
+    border-radius: 10px 10px 0 0;
+    background-color: red;
+    color: white;
+}
+.blog > p{
+    
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+.video{
+    margin: 10% 10% auto 10%;
+    display: flex;
+    justify-content: right;
+}
